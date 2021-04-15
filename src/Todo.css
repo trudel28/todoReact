@@ -1,0 +1,22 @@
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border: 1px solid rgba(128, 128, 128, 0.212);
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.left{
+    display: flex;
+    align-items: center;
+}
+
+.left > p{
+    padding-left: 20px;
+}
+
+.left > p.done{
+    text-decoration: line-through;
+}

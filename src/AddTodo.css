@@ -1,0 +1,34 @@
+.addtodo{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.addtodo input{
+    width: 80%;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.212);
+    border-radius: 5px;
+    outline: none;
+
+}
+
+.addtodo input:focus{
+    border: 1px solid rgba(128, 128, 128, 0.877);
+}
+
+.addtodo > button{
+    background-color: steelblue;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.addtodo > button:focus{
+    outline: none;
+}
