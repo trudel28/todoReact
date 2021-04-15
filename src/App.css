@@ -12,10 +12,15 @@
   font-family: "Poppins", sans-serif;
   justify-content: center;
   align-items: center;
-  background: white;
+  background:rgba(245, 245, 220, 0.637);
 }
 .container{
+  display: flex;
+  flex-direction: column;
+  padding: 5px 5px;
   background-color: #fff;
   width: 40%;
-  
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px #888888;
+  text-align: center;
 }
